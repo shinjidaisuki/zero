@@ -1,0 +1,99 @@
+*,html,body{
+  margin: 0;
+  padding: 0;
+  border-box:border-sizing;
+  font-family: Courier;
+}
+.h2{
+  position: absolute;
+  top: 30px;
+  margin: 0;
+  padding: 0;
+  font-size:2em;
+  padding: 10px;
+  border:1px solid black ;
+  box-shadow: 5px 5px 5px black;
+}
+.bg{
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/497/182/desktop-wallpaper-city-anime-girl-alone-anime-alone-girl.jpg');
+  background-size: cover;
+}
+.komp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  background-color:transparent;
+  
+  padding: 10px;
+  margin-bottom: 0;
+  position: absolute;
+  top:120px;
+}
+.player img:hover{
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 50%;
+    transform: scale(1.2,1.2);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 120px;
+  height: 120px;
+}
+.img-komp{
+  transform: rotate(180deg);
+}
+.hasil{
+  width: 150px;
+  height: 30px;
+  font-family: Courier;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+  margin: 20px 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.btn2{
+  position: absolute;
+  left: 43%;
+  bottom: 30px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.btn3{
+  position: absolute;
+  right: 20px;
+  bottom:30px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+}
